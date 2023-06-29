@@ -5,8 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pokédex</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <h1>Pokedex</h1>
+
+  <section class="Busqueda">
+    <input type="text" id="pokeName" placeholder="Ingresa el nombre de un pokémon">
+    <div>
+      <img width="48" height="48" src="https://img.icons8.com/color/48/search--v1.png" alt="search--v1" id="searchPokemon"/>
+      <button id="borrarPokemon">Eliminar pokémones</button>
+    </div>
+  </section>
+
+  <section id="app"></section>
+
   <div class="container mt-5">
     <h1 class="text-center mb-4">Pokédex</h1>
     <div class="row" id="pokemonList"></div>
